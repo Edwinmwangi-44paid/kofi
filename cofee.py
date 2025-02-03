@@ -69,7 +69,7 @@ def make_coffee(drink_name, order_ingredients):
     """Deduct the required ingredients"""
     for items in order_ingredients:
         resources[items] -= order_ingredients[items]
-    print(f"Here is your{drink_name} 😊")
+    print(f"Here is your {drink_name} 😊")
 is_on = True
 
 
